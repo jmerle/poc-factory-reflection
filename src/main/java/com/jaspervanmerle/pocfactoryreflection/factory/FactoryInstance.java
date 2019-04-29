@@ -11,7 +11,7 @@ public interface FactoryInstance {
     /**
      * Create a shallow clone of this instance.
      * <p>
-     * Can't be named clone() because that would clone with the protected Object.clone() method.
+     * Can't be named clone() because that would clash with the protected Object.clone() method.
      */
     Object createClone();
 }
